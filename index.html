@@ -5,9 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" type="module"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-     
+     <div class="mainContainer">
+      <form class="inputForm">
+        <input type="text" placeholder="Enter City Name" class="inputField">
+        <button type="submit" class="searchButton"><i class="fa-solid fa-magnifying-glass searchIcon" ></i></button>
+      </form>
+
+      <div class="tempDetialContainer">
+        <img src="./assets/sunny.png" class="mainImage" alt="sunny" >
+        <h2 class="tempPara">22℃</h2>
+        <p class="locationpara">New York</p>
+      </div>
+
+      <div class="humidWindContainer">
+        <div class="humidContainer">
+        <div class="humidIconText">
+          <i class="fa-solid fa-right-left humidIcon"></i>
+          <p><span class="humidText">53</span>%</p>
+        </div>
+        <p>Humidity</p>
+      </div>
+
+        <div class="windContainer">
+        <div class="windIconText">
+          <i class="fa-solid fa-wind windIcon"></i>
+          <h3><span class="windText">5.66</span>Km/h</h3>
+        </div>
+        <p>Wind Speed</p>
+      </div>
+      </div>
+
+     </div>
 </body>
 </html>
