@@ -30,7 +30,7 @@ Project ko local machine par chalane ke liye niche diye gaye steps follow karein
 Repository Clone karein:
 
 ```Bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Gausha606/weather-app.git
 ```
 
 Project Folder mein jayein:
